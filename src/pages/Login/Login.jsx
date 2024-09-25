@@ -120,7 +120,7 @@ export default function Login() {
         </button>
         <div className={styles.footer}>
           <p>Você não tem uma conta?</p>
-          <Link to="/Lovelace_1.2.4/register">Crie a sua conta aqui</Link>
+          <Link to="/reg">Crie a sua conta aqui</Link>
         </div>
       </form>
     </div>

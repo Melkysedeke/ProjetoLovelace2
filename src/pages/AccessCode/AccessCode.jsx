@@ -16,7 +16,7 @@ function AccessCode() {
             .then((data) => {
                 if (data.length > 0) {
                     const activity = data[0];
-                    navigate(`/access/${activity.id}`);
+                    navigate(`/Lovelace_1.2.4/aA/${activity.id}`);
                 } else {
                     alert('Activity not found');
                 }

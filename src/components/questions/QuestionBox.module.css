@@ -33,10 +33,10 @@
     transition: ease .5s;
 }
 
-p {
+.question_box p {
     font-size: 16px;
     text-align: left;
-    padding: 10px;
+    padding: 0px 10px;
     color: rgba(211, 211, 211, 0.5);
 }
 

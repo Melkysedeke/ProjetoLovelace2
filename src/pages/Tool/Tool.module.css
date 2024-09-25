@@ -1,24 +1,64 @@
 *::selection {
     background: #F21B3F;
     color: #FFFFFF;
-    
 }
 
 /* Header */
 
 .loveLog {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 60px;
+    width: 100%;
+    border-bottom: 1px solid #F21B3F;
+
+}
+
+.loveLog h1 {
     background:  linear-gradient(269.52deg, #F21B3F -1.77%, #FFD151 95%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    border-bottom: 1px solid #F21B3F;
+}
 
+.userInfo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.userInfo p {
+    font-weight: bold;
+    color: #F21B3F;
+}
+
+.userInfo div {
+    display: flex;
+    align-items: center;
+}
+
+.userImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profileButton {
+    background-color: #F21B3F;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profileButton:hover {
+    background-color: #e6e6e6;
 }
 
 .tudo{
